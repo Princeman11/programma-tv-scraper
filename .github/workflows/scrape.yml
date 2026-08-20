@@ -1,0 +1,35 @@
+name: Scrape ProgrammaTV
+
+on:
+  schedule:
+    # Τρέχει κάθε 10 λεπτά
+    - cron: '*/10 * * * *'
+  # Επιτρέπει χειροκίνητο τρέξιμο
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Run scraper
+        run: node scraper.js
+        
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add programma.json programma.txt
+          git diff --staged --quiet || git commit -m "🔄 Auto-update: $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
+          git push
