@@ -1,0 +1,13 @@
+{
+  "name": "programma-tv-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes sports TV schedule from ProgrammaTV",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
