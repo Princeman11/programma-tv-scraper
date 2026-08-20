@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 async function scrapeProgramma() {
-  console.log('🔄 Ξεκινάω το scraping με τη σωστή δομή...');
+  console.log('🔄 Ξεκινάω το scraping...');
   
   try {
     const response = await axios.get('https://programmatv.gr/athlitika/', {
@@ -14,40 +14,40 @@ async function scrapeProgramma() {
       timeout: 15000
     });
 
-    console.log('✅ Σελίδα φορτώθηκε, μέγεθος:', response.data.length);
+    console.log('✅ Σελίδα φορτώθηκε');
 
     const $ = cheerio.load(response.data);
     const games = [];
 
-    // Βρίσκουμε όλα τα cards
     $('.ptv-sport-card').each((i, el) => {
-      // Βγάζουμε τα στοιχεία
       const channel = $(el).find('.ptv-card-channel').text().trim();
       const time = $(el).find('.ptv-card-time').text().trim();
       const title = $(el).find('.ptv-card-title').text().trim();
       const sport = $(el).find('.ptv-card-sport-tag').text().trim();
       
-      // Καθαρίζουμε την ώρα (παίρνουμε μόνο την έναρξη)
+      // Καθαρίζουμε την ώρα
       let cleanTime = time;
       if (time.includes('—')) {
         cleanTime = time.split('—')[0].trim();
       }
       
-      // Ψάχνουμε να βρούμε τις ομάδες από τον τίτλο
+      // Βρίσκουμε τις ομάδες
       let home = '';
       let away = '';
+      let isMatch = false;
       
-      // Αν ο τίτλος έχει " – " ή " - " ή " vs "
+      // 1. Αν έχει " – " ή " - " ή " vs "
       if (title.includes(' – ') || title.includes(' - ') || title.includes(' vs ')) {
         const parts = title.split(/\s*[–-]\s*|\s*vs\s*/i);
         if (parts.length >= 2) {
           home = parts[0].trim();
           away = parts[parts.length - 1].trim();
+          isMatch = true;
         }
       }
       
-      // Αν ο τίτλος έχει " : " (π.χ. "Ποδόσφαιρο: Κροατία – Πολωνία")
-      if (!home && title.includes(':')) {
+      // 2. Αν έχει " : " (π.χ. "Ποδόσφαιρο: Κροατία – Πολωνία")
+      if (!isMatch && title.includes(':')) {
         const parts = title.split(':');
         if (parts.length >= 2) {
           const rest = parts.slice(1).join(':').trim();
@@ -55,49 +55,57 @@ async function scrapeProgramma() {
           if (teamParts.length >= 2) {
             home = teamParts[0].trim();
             away = teamParts[teamParts.length - 1].trim();
+            isMatch = true;
           }
         }
       }
       
-      // Φιλτράρουμε μόνο τα αθλητικά (όχι εκπομπές)
-      const isSport = sport === 'Ποδόσφαιρο' || sport === 'Μπάσκετ' || sport === 'Τένις' || 
-                      sport === 'Βόλεϊ' || sport === 'Αθλητικά' || sport === 'LIVE' ||
-                      sport.includes('Nations') || sport.includes('League');
+      // 3. Αν έχει μόνο μία ομάδα αλλά το sport είναι "Ποδόσφαιρο" ή "Μπάσκετ" κλπ.
+      if (!isMatch && (sport === 'Ποδόσφαιρο' || sport === 'Μπάσκετ' || sport === 'Τένις')) {
+        // Βγάζουμε το άθλημα από τον τίτλο
+        const cleanTitle = title.replace(/^[^:]+:\s*/, '').trim();
+        const teamParts = cleanTitle.split(/\s*[–-]\s*|\s*vs\s*/i);
+        if (teamParts.length >= 2) {
+          home = teamParts[0].trim();
+          away = teamParts[teamParts.length - 1].trim();
+          isMatch = true;
+        }
+      }
       
-      // Αν έχει ομάδες και είναι αθλητικό, το προσθέτουμε
-      if (home && away && home.length > 1 && away.length > 1 && isSport) {
+      // Φιλτράρουμε μη-αγώνες (πχ στιγμιότυπα, εκπομπές)
+      const nonMatches = ['Στιγμιότυπα', 'Προεπισκόπηση', 'Ανασκόπηση', 'Ανασκόπηση Σεζόν', 'Inside', 'Kick-off', 'Classic Match', 'Special', 'Taste of Europe', 'Shot Clock', 'News', 'Highlights', 'Περίοδος'];
+      const isNonMatch = nonMatches.some(word => title.includes(word) || away.includes(word) || home.includes(word));
+      
+      // Αν είναι αγώνας και έχει ομάδες
+      if (isMatch && home && away && home.length > 1 && away.length > 1 && !isNonMatch) {
+        // Αφαίρεση άχρηστων λέξεων
+        const cleanHome = home.replace(/^Ποδόσφαιρο[:|]\s*/, '').replace(/^Μπάσκετ[:|]\s*/, '').trim();
+        const cleanAway = away.replace(/^Ποδόσφαιρο[:|]\s*/, '').replace(/^Μπάσκετ[:|]\s*/, '').trim();
+        
         games.push({
           time: cleanTime || '--:--',
-          home: home.substring(0, 35),
-          away: away.substring(0, 35),
-          channel: channel,
-          sport: sport,
-          title: title.substring(0, 50)
+          home: cleanHome.substring(0, 35),
+          away: cleanAway.substring(0, 35),
+          channel: channel || '—',
+          sport: sport || '—'
         });
       }
     });
 
-    console.log(`🎯 Βρέθηκαν ${games.length} παιχνίδια`);
+    console.log(`🎯 Βρέθηκαν ${games.length} αγώνες`);
 
-    // Καθαρισμός διπλότυπων
+    // Αφαίρεση διπλότυπων
     const seen = new Set();
     const cleanGames = games
-      .filter(g => g.time && g.home && g.away)
+      .filter(g => g.time && g.home && g.away && g.home !== g.away)
       .filter(g => {
         const key = `${g.time}-${g.home}-${g.away}`;
         if (seen.has(key)) return false;
         seen.add(key);
         return true;
       })
-      .slice(0, 30)
-      .map(g => ({
-        time: g.time,
-        home: g.home,
-        away: g.away,
-        channel: g.channel || '—'
-      }));
+      .slice(0, 30);
 
-    // Αν βρήκε παιχνίδια, τα αποθηκεύουμε
     if (cleanGames.length > 0) {
       const data = {
         date: new Date().toISOString().split('T')[0],
@@ -107,25 +115,13 @@ async function scrapeProgramma() {
       };
 
       fs.writeFileSync('programma.json', JSON.stringify(data, null, 2));
-      console.log('💾 Αποθηκεύτηκε programma.json με', cleanGames.length, 'παιχνίδια');
+      console.log('💾 Αποθηκεύτηκαν', cleanGames.length, 'αγώνες');
       
-      // Εκτύπωση των πρώτων 5 για έλεγχο
-      console.log('📋 Πρώτα 5 παιχνίδια:');
       cleanGames.slice(0, 5).forEach((g, i) => {
         console.log(`  ${i+1}. ${g.time} - ${g.home} vs ${g.away} (${g.channel})`);
       });
     } else {
-      // Αν δεν βρήκε, αποθηκεύουμε το HTML για debugging
-      fs.writeFileSync('debug.html', response.data);
-      console.log('⚠️ ΔΕΝ βρέθηκαν παιχνίδια! Αποθηκεύτηκε debug.html');
-      
-      const data = {
-        date: new Date().toISOString().split('T')[0],
-        updated: new Date().toISOString(),
-        total: 0,
-        games: []
-      };
-      fs.writeFileSync('programma.json', JSON.stringify(data, null, 2));
+      console.log('⚠️ ΔΕΝ βρέθηκαν αγώνες!');
     }
 
   } catch (error) {
