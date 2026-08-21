@@ -127,7 +127,6 @@ async function scrapeProgramma() {
         seen.add(key);
         return true;
       })
-      .slice(0, 35);
 
     if (cleanGames.length > 0) {
       const data = {
