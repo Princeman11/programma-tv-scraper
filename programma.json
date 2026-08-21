@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
-  "updated": "2026-08-21T15:07:21.067Z",
-  "total": 52,
+  "updated": "2026-08-21T17:31:06.031Z",
+  "total": 40,
   "games": [
     {
       "time": "23:00",
@@ -9,102 +9,6 @@
       "away": "Μάντσεστερ Σίτι",
       "channel": "ERT2",
       "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "16:00",
-      "home": "Πανιώνιος",
-      "away": "Λόντον Λάιονς",
-      "channel": "Novasports Start HD",
-      "sport": "Μπάσκετ",
-      "league": ""
-    },
-    {
-      "time": "16:30",
-      "home": "Κρίσταλ Πάλας",
-      "away": "Άρσεναλ",
-      "channel": "Novasports Premier League",
-      "sport": "Ποδόσφαιρο",
-      "league": "Premier League"
-    },
-    {
-      "time": "17:00",
-      "home": "Ελλάς Βερόνα",
-      "away": "Ρόμα",
-      "channel": "Cosmote Sport 2 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "Serie A"
-    },
-    {
-      "time": "17:00",
-      "home": "Μπέρνλι",
-      "away": "Γουέστ Χαμ",
-      "channel": "Cosmote Sport 3 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "18:00",
-      "home": "Φενέρμπαχτσε",
-      "away": "Λιόν",
-      "channel": "Cosmote Sport 1 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
-    },
-    {
-      "time": "18:00",
-      "home": "Φενέρμπαχτσε",
-      "away": "Αναντολού Εφές",
-      "channel": "Cosmote Sport 4 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "Super League"
-    },
-    {
-      "time": "18:00",
-      "home": "Ισλανδία",
-      "away": "Ουαλία",
-      "channel": "Novasports 1 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Nations League"
-    },
-    {
-      "time": "18:00",
-      "home": "Κύπρος",
-      "away": "Ρουμανία",
-      "channel": "Novasports 2 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "18:00",
-      "home": "Άιντραχτ Φρανκφούρτης",
-      "away": "Αμβούργο",
-      "channel": "Novasports 3 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "Bundesliga"
-    },
-    {
-      "time": "18:00",
-      "home": "Παρί",
-      "away": "Παρτίζαν",
-      "channel": "Novasports 4 HD",
-      "sport": "Μπάσκετ",
-      "league": "Euroleague"
-    },
-    {
-      "time": "18:00",
-      "home": "Ολυμπιακός",
-      "away": "Μονακό",
-      "channel": "Novasports Prime HD",
-      "sport": "Μπάσκετ",
-      "league": "Euroleague"
-    },
-    {
-      "time": "18:15",
-      "home": "Άρης",
-      "away": "Νεπτούνας Κλαϊπέντα",
-      "channel": "Novasports Start HD",
-      "sport": "Μπάσκετ",
       "league": ""
     },
     {
