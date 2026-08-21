@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-20",
-  "updated": "2026-08-20T23:59:48.506Z",
+  "date": "2026-08-21",
+  "updated": "2026-08-21T05:35:08.437Z",
   "total": 35,
   "games": [
     {
@@ -12,23 +12,15 @@
       "league": ""
     },
     {
-      "time": "01:00",
-      "home": "Σπόρτινγκ Λισαβόνας",
-      "away": "Βιτόρια Γκιμαράες",
+      "time": "07:00",
+      "home": "Αρούκα",
+      "away": "Μορεϊρένσε",
       "channel": "Cosmote Sport 2 HD",
       "sport": "Ποδόσφαιρο",
       "league": ""
     },
     {
-      "time": "01:00",
-      "home": "Τότεναμ",
-      "away": "Έβερτον",
-      "channel": "Novasports Premier League",
-      "sport": "Ποδόσφαιρο",
-      "league": "Premier League"
-    },
-    {
-      "time": "01:30",
+      "time": "08:00",
       "home": "Μπεσίκτας",
       "away": "Μπαχτσεσεχίρ",
       "channel": "Cosmote Sport 4 HD",
@@ -36,12 +28,12 @@
       "league": "Super League"
     },
     {
-      "time": "02:00",
-      "home": "Σέφιλντ Γουένσντεϊ",
-      "away": "Μπράντφορντ",
-      "channel": "Cosmote Sport 3 HD",
+      "time": "08:30",
+      "home": "Ναϊμέγκεν",
+      "away": "Μπόντο Γκλιμτ",
+      "channel": "Cosmote Sport 1 HD",
       "sport": "Ποδόσφαιρο",
-      "league": ""
+      "league": "UEFA Champions League"
     },
     {
       "time": "10:00",
@@ -282,6 +274,14 @@
       "channel": "Cosmote Sport 1 HD",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Champions League"
+    },
+    {
+      "time": "16:00",
+      "home": "Μπασκόνια",
+      "away": "Μπανταλόνα",
+      "channel": "Cosmote Sport 4 HD",
+      "sport": "Μπάσκετ",
+      "league": "ACB"
     }
   ]
 }
