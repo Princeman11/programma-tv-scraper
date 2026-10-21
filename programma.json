@@ -1,98 +1,490 @@
 {
-  "date": "2026-10-20",
-  "updated": "2026-10-20T20:19:10.773Z",
-  "total": 27,
+  "date": "2026-10-21",
+  "updated": "2026-10-21T09:52:54.238Z",
+  "total": 89,
   "games": [
     {
-      "time": "21:30",
-      "home": "Μανρέσα",
-      "away": "Ρόμα (Ζ)",
-      "channel": "Novasports 4 HD",
-      "sport": "Μπάσκετ",
+      "time": "11:00",
+      "home": "Ποδόσφαιρο | Superbet League 2 | ΑΕ",
+      "away": "Πανσερραϊκός | 7η Αγωνιστική",
+      "channel": "ERT2",
+      "sport": "Ποδόσφαιρο",
+      "league": ""
+    },
+    {
+      "time": "17:00",
+      "home": "Ποδόσφαιρο | Superbet League 2 | Νί",
+      "away": "Πανιώνιος | 7η Αγωνιστική",
+      "channel": "ERT2",
+      "sport": "Ποδόσφαιρο",
       "league": ""
     },
     {
       "time": "22:00",
-      "home": "Μάντσεστερ Σίτι",
-      "away": "ΑΕΚ (Ζ)",
+      "home": "UEFA Champions League: Μπάγερν Μονά",
+      "away": "Άρσεναλ",
+      "channel": "MEGA",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "03:30",
+      "home": "Copa Libertadores 2026 | Α’ Ημιτελι",
+      "away": "Φλουμινένσε",
+      "channel": "ERT2",
+      "sport": "Αθλητικά",
+      "league": ""
+    },
+    {
+      "time": "11:00",
+      "home": "Φιορεντίνα",
+      "away": "Κόμο",
       "channel": "Cosmote Sport 2 HD",
       "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
+      "league": "Serie A"
     },
     {
-      "time": "22:00",
-      "home": "Παρί Σεν Ζερμέν",
-      "away": "Μπαρτσελόνα (Ζ)",
-      "channel": "Cosmote Sport 3 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
-    },
-    {
-      "time": "22:00",
+      "time": "11:00",
       "home": "Ντιτρόιτ Πίστονς",
-      "away": "Μπόστον Σέλτικς (Ζ)",
+      "away": "Μπόστον Σέλτικς",
       "channel": "Cosmote Sport 4 HD",
       "sport": "Μπάσκετ",
       "league": "NBA"
     },
     {
-      "time": "22:00",
-      "home": "Λίβερπουλ",
-      "away": "Βιγιαρεάλ (Ζ)",
-      "channel": "Cosmote Sport 5 HD",
+      "time": "11:30",
+      "home": "Παναθηναϊκός",
+      "away": "Χάποελ Τελ Αβίβ",
+      "channel": "Novasports Prime HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "11:30",
+      "home": "Παρί Σεν Ζερμέν",
+      "away": "Μπαρτσελόνα",
+      "channel": "Cosmote Sport 1 HD",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Champions League"
     },
     {
-      "time": "22:00",
-      "home": "Στουτγκάρδη",
-      "away": "Ατλέτικο Μαδρίτης (Ζ)",
+      "time": "11:30",
+      "home": "Τένις: Ζάνγκαρ Νουρλανούλι",
+      "away": "Τόµας Μάχατς (Ζ)",
       "channel": "Cosmote Sport 6 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
+      "sport": "Τένις",
+      "league": ""
     },
     {
-      "time": "22:00",
-      "home": "Ρόμα",
-      "away": "Σλόβαν Μπρατισλάβας (Ζ)",
-      "channel": "Cosmote Sport 7 HD",
+      "time": "11:45",
+      "home": "ΠΑΟΚ",
+      "away": "Άρης",
+      "channel": "Novasports 2 HD",
       "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
+      "league": "Super League"
     },
     {
-      "time": "22:00",
-      "home": "Πόρτο",
-      "away": "PSV Αϊντχόφεν (Ζ)",
-      "channel": "Cosmote Sport 8 HD",
+      "time": "12:00",
+      "home": "Μπέρνλι",
+      "away": "Γουλβς",
+      "channel": "Cosmote Sport 3 HD",
       "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
+      "league": ""
     },
     {
-      "time": "22:00",
-      "home": "Νάπολι",
-      "away": "Μπόντο Γκλιμτ (Ζ)",
-      "channel": "Cosmote Sport 9 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
-    },
-    {
-      "time": "22:00",
-      "home": "Ελλάδα",
-      "away": "Ολλανδία",
+      "time": "12:00",
+      "home": "Γεωργία",
+      "away": "Ουκρανία",
       "channel": "Novasports 1 HD",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Nations League"
     },
     {
-      "time": "22:00",
-      "home": "Φιορεντίνα",
-      "away": "Πίζα",
+      "time": "12:00",
+      "home": "Κολωνία",
+      "away": "Γκλάντμπαχ",
+      "channel": "Novasports 3 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Bundesliga"
+    },
+    {
+      "time": "12:00",
+      "home": "Αρμάνι Μιλάνο",
+      "away": "Ρεάλ Μαδρίτης",
+      "channel": "Novasports 4 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "12:00",
+      "home": "Μάντσεστερ Γιουνάιτεντ",
+      "away": "Λούτον",
+      "channel": "Novasports Premier League",
+      "sport": "Ποδόσφαιρο",
+      "league": "Premier League"
+    },
+    {
+      "time": "12:00",
+      "home": "Μπεσίκτας",
+      "away": "Τρέντο",
+      "channel": "Novasports Start HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "13:00",
+      "home": "Κάζα Πία",
+      "away": "Σάντα Κλάρα",
+      "channel": "Cosmote Sport 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": ""
+    },
+    {
+      "time": "13:30",
+      "home": "Νιου Γιορκ Νικς",
+      "away": "Φιλαδέλφεια 76ερς",
+      "channel": "Cosmote Sport 4 HD",
+      "sport": "Μπάσκετ",
+      "league": "NBA"
+    },
+    {
+      "time": "13:30",
+      "home": "Νάπολι",
+      "away": "Μπόντο Γκλιμτ",
+      "channel": "Cosmote Sport 1 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "13:30",
+      "home": "Τένις: Αντριάν Μαναρίνο",
+      "away": "Αντρέι Ρούμπλεφ (Ζ)",
+      "channel": "Cosmote Sport 6 HD",
+      "sport": "Τένις",
+      "league": ""
+    },
+    {
+      "time": "13:45",
+      "home": "Έλβερσμπεργκ",
+      "away": "Άουγκσμπουργκ",
+      "channel": "Novasports Prime HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Bundesliga"
+    },
+    {
+      "time": "14:00",
+      "home": "Νταντί",
+      "away": "Ρέιντζερς",
+      "channel": "Cosmote Sport 3 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": ""
+    },
+    {
+      "time": "14:00",
+      "home": "Σλοβενία",
+      "away": "Βόρεια Μακεδονία",
+      "channel": "Novasports 1 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Nations League"
+    },
+    {
+      "time": "14:00",
+      "home": "Φέγενορντ",
+      "away": "Τβέντε",
+      "channel": "Novasports 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Eredivisie"
+    },
+    {
+      "time": "14:00",
+      "home": "Ντόρτμουντ",
+      "away": "Βέρντερ Βρέμης",
+      "channel": "Novasports 3 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Bundesliga"
+    },
+    {
+      "time": "14:00",
+      "home": "Βιλερμπάν",
+      "away": "Ερυθρός Αστέρας",
+      "channel": "Novasports 4 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "14:00",
+      "home": "Νιούκαστλ",
+      "away": "Τσέλσι",
+      "channel": "Novasports Premier League",
+      "sport": "Ποδόσφαιρο",
+      "league": "Premier League"
+    },
+    {
+      "time": "14:00",
+      "home": "Άρης",
+      "away": "Αστέρας Aktor",
+      "channel": "Novasports Start HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Super League"
+    },
+    {
+      "time": "15:00",
+      "home": "Μπολόνια",
+      "away": "Ίντερ",
+      "channel": "Cosmote Sport 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Serie A"
+    },
+    {
+      "time": "15:30",
+      "home": "Μάντσεστερ Σίτι",
+      "away": "ΑΕΚ",
+      "channel": "Cosmote Sport 1 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "15:45",
+      "home": "ΠΑΟΚ",
+      "away": "Ηρακλής",
+      "channel": "Novasports Prime HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Super League"
+    },
+    {
+      "time": "16:00",
+      "home": "Μάντσεστερ Σίτι",
+      "away": "ΑΕΚ",
+      "channel": "Cosmote Sport 3 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": ""
+    },
+    {
+      "time": "16:00",
+      "home": "Τσεχία",
+      "away": "Αγγλία",
+      "channel": "Novasports 1 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Nations League"
+    },
+    {
+      "time": "16:00",
+      "home": "Τορίνο",
+      "away": "Μόντσα",
       "channel": "Novasports 2 HD",
       "sport": "Ποδόσφαιρο",
       "league": ""
     },
     {
-      "time": "22:00",
+      "time": "16:00",
+      "home": "Μπάγερν Μονάχου",
+      "away": "Λειψία",
+      "channel": "Novasports 3 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Bundesliga"
+    },
+    {
+      "time": "16:00",
+      "home": "Ρεάλ Μαδρίτης",
+      "away": "Βιλερμπάν",
+      "channel": "Novasports 4 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "16:00",
+      "home": "Μπρέντφορντ",
+      "away": "Άρσεναλ",
+      "channel": "Novasports Premier League",
+      "sport": "Ποδόσφαιρο",
+      "league": "Premier League"
+    },
+    {
+      "time": "16:00",
+      "home": "Ντινάμο Δρέσδης",
+      "away": "Φορτούνα Ντίσελντορφ",
+      "channel": "Novasports Start HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Bundesliga"
+    },
+    {
+      "time": "16:30",
+      "home": "Μπεσίκτας",
+      "away": "Γαλατασαράι",
+      "channel": "Cosmote Sport 4 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Super League"
+    },
+    {
+      "time": "17:00",
+      "home": "Μπράγκα",
+      "away": "Ζιλ Βισέντε",
+      "channel": "Cosmote Sport 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": ""
+    },
+    {
+      "time": "17:20",
+      "home": "Τενερίφη",
+      "away": "Μπασκόνια",
+      "channel": "Cosmote Sport Start",
+      "sport": "Μπάσκετ",
+      "league": "ACB"
+    },
+    {
+      "time": "17:30",
+      "home": "Τένις: Στέφανος Τσιτσιπάς",
+      "away": "Μίκαϊλ Κουκούσκιν (Ζ)",
+      "channel": "Cosmote Sport 6 HD",
+      "sport": "Τένις",
+      "league": ""
+    },
+    {
+      "time": "18:00",
+      "home": "Βραζιλία",
+      "away": "Γερμανία",
+      "channel": "Cosmote Sport 3 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "World Cup"
+    },
+    {
+      "time": "18:00",
+      "home": "Μάλτα",
+      "away": "Γιβραλτάρ",
+      "channel": "Novasports 1 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Nations League"
+    },
+    {
+      "time": "18:00",
+      "home": "Καμπούρ",
+      "away": "Άλκμααρ",
+      "channel": "Novasports 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Eredivisie"
+    },
+    {
+      "time": "18:00",
+      "home": "Ουλμ",
+      "away": "Μπόσνα",
+      "channel": "Novasports 5 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "19:00",
+      "home": "ΑΕΚ",
+      "away": "Άντβερπ Τζάιαντς (Ζ)",
+      "channel": "Cosmote Sport 4 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Champions League"
+    },
+    {
+      "time": "19:00",
+      "home": "Χάποελ Τελ Αβίβ",
+      "away": "Βίρτους Μπολόνια (Ζ)",
+      "channel": "Novasports 4 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "19:00",
+      "home": "Φούλαμ",
+      "away": "Χαλ",
+      "channel": "Novasports Premier League",
+      "sport": "Ποδόσφαιρο",
+      "league": "Premier League"
+    },
+    {
+      "time": "19:30",
+      "home": "Τσεντεβίτα Ολιμπία",
+      "away": "Λε Μαν (Ζ)",
+      "channel": "Novasports 3 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "19:45",
+      "home": "Κόμο",
+      "away": "Μάντσεστερ Γιουνάιτεντ (Ζ)",
+      "channel": "Cosmote Sport 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "19:45",
+      "home": "Λιλ",
+      "away": "Γαλατασαράι (Ζ)",
+      "channel": "Cosmote Sport 3 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "20:00",
+      "home": "Βέλγιο",
+      "away": "Τουρκία",
+      "channel": "Novasports 1 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Nations League"
+    },
+    {
+      "time": "20:00",
+      "home": "Καρλσρούη",
+      "away": "Ντάρμσταντ",
+      "channel": "Novasports 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Bundesliga"
+    },
+    {
+      "time": "20:00",
+      "home": "ΠΑΟΚ",
+      "away": "Ουλμ (Ζ)",
+      "channel": "Novasports Prime HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "20:30",
+      "home": "Μπόσνα",
+      "away": "Μπαχτσεσεχίρ (Ζ)",
+      "channel": "Novasports 6 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "20:30",
+      "home": "Αθηναϊκός Qualco",
+      "away": "Σαραγόσα (Ζ)",
+      "channel": "Novasports Start HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "21:00",
+      "home": "Βίρτους Μπολόνια",
+      "away": "Μπασκόνια",
+      "channel": "Novasports 4 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "21:00",
+      "home": "Νάπολι",
+      "away": "Τόφας (Ζ)",
+      "channel": "Novasports 5 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "21:10",
+      "home": "ΑΕΚ",
+      "away": "Άντβερπ Τζάιαντς",
+      "channel": "Cosmote Sport 4 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Champions League"
+    },
+    {
+      "time": "21:30",
       "home": "Έλβερσμπεργκ",
       "away": "Άουγκσμπουργκ",
       "channel": "Novasports 3 HD",
@@ -101,49 +493,137 @@
     },
     {
       "time": "22:00",
-      "home": "Μπράιτον",
-      "away": "Κρίσταλ Πάλας",
+      "home": "Μπάγερν Μονάχου",
+      "away": "Άρσεναλ (Ζ)",
+      "channel": "Cosmote Sport 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "22:00",
+      "home": "Ρεάλ Μαδρίτης",
+      "away": "Λειψία (Ζ)",
+      "channel": "Cosmote Sport 3 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "22:00",
+      "home": "Ίντερ",
+      "away": "Σαχτάρ Ντόνετσκ (Ζ)",
+      "channel": "Cosmote Sport 5 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "22:00",
+      "home": "Σπόρτινγκ Λισαβόνας",
+      "away": "Λίντσερ (Ζ)",
+      "channel": "Cosmote Sport 6 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "22:00",
+      "home": "Μπέτις",
+      "away": "Φέγενορντ (Ζ)",
+      "channel": "Cosmote Sport 7 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "22:00",
+      "home": "Άστον Βίλα",
+      "away": "Βίκινγκ (Ζ)",
+      "channel": "Cosmote Sport 8 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "22:00",
+      "home": "Κλαμπ Μπριζ",
+      "away": "Λανς (Ζ)",
+      "channel": "Cosmote Sport 9 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "22:00",
+      "home": "Φινλανδία",
+      "away": "Αλβανία",
+      "channel": "Novasports 1 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Nations League"
+    },
+    {
+      "time": "22:00",
+      "home": "Τέλσταρ",
+      "away": "Φέγενορντ",
+      "channel": "Novasports 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Eredivisie"
+    },
+    {
+      "time": "22:00",
+      "home": "Τότεναμ",
+      "away": "Κόβεντρι",
       "channel": "Novasports Premier League",
       "sport": "Ποδόσφαιρο",
       "league": "Premier League"
     },
     {
+      "time": "22:30",
+      "home": "Ροστόκ",
+      "away": "Άρης",
+      "channel": "Novasports Prime HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "23:00",
+      "home": "Μπούργκος",
+      "away": "Χάποελ Ιερουσαλήμ",
+      "channel": "Novasports 5 HD",
+      "sport": "Μπάσκετ",
+      "league": ""
+    },
+    {
+      "time": "23:40",
+      "home": "Νιου Γιορκ Νικς",
+      "away": "Φιλαδέλφεια 76ερς",
+      "channel": "Cosmote Sport 4 HD",
+      "sport": "Μπάσκετ",
+      "league": "NBA"
+    },
+    {
       "time": "00:00",
-      "home": "Σερβία",
-      "away": "Ολλανδία",
+      "home": "Ισπανία",
+      "away": "Κροατία",
       "channel": "Novasports 2 HD",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Nations League"
     },
     {
       "time": "00:00",
-      "home": "Βαλένθια",
-      "away": "Ολυμπιακός",
-      "channel": "Novasports Prime HD",
-      "sport": "Μπάσκετ",
-      "league": ""
-    },
-    {
-      "time": "00:00",
-      "home": "Άρσεναλ",
-      "away": "Μάντσεστερ Γιουνάιτεντ",
+      "home": "Γουέστ Χαμ",
+      "away": "Μπόρνμουθ",
       "channel": "Novasports Premier League",
       "sport": "Ποδόσφαιρο",
       "league": "Premier League"
     },
     {
       "time": "00:00",
-      "home": "Ροστόκ",
-      "away": "Άρης",
+      "home": "ΠΑΟΚ",
+      "away": "Ουλμ",
       "channel": "Novasports Start HD",
       "sport": "Μπάσκετ",
       "league": ""
     },
     {
       "time": "00:05",
-      "home": "Μάντσεστερ Σίτι",
-      "away": "ΑΕΚ",
-      "channel": "Cosmote Sport 2 HD",
+      "home": "Κόμο",
+      "away": "Μάντσεστερ Γιουνάιτεντ",
+      "channel": "Cosmote Sport 3 HD",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Champions League"
     },
@@ -151,70 +631,86 @@
       "time": "00:05",
       "home": "Σαμπάχ",
       "away": "Ντόρτμουντ",
-      "channel": "Cosmote Sport 3 HD",
+      "channel": "Cosmote Sport Start",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Champions League"
     },
     {
-      "time": "00:05",
+      "time": "00:30",
       "home": "Παναθηναϊκός",
-      "away": "Μπόρατς",
-      "channel": "Cosmote Sport Start",
-      "sport": "Ποδόσφαιρο",
+      "away": "Χάποελ Τελ Αβίβ",
+      "channel": "Novasports Prime HD",
+      "sport": "Μπάσκετ",
       "league": ""
     },
     {
-      "time": "02:00",
-      "home": "Στουτγκάρδη",
-      "away": "Ατλέτικο Μαδρίτης",
-      "channel": "Cosmote Sport 1 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
-    },
-    {
-      "time": "02:00",
-      "home": "Νιου Γιορκ Νικς",
-      "away": "Φιλαδέλφεια 76ερς (Ζ)",
-      "channel": "Cosmote Sport 4 HD",
-      "sport": "Μπάσκετ",
-      "league": "NBA"
-    },
-    {
-      "time": "03:00",
-      "home": "Φενέρμπαχτσε",
-      "away": "Σλάβια Πράγας",
+      "time": "00:35",
+      "home": "Λιλ",
+      "away": "Γαλατασαράι",
       "channel": "Cosmote Sport 2 HD",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Champions League"
     },
     {
-      "time": "03:15",
-      "home": "Κιλμάρνοκ",
-      "away": "Αμπερντίν",
-      "channel": "Cosmote Sport 3 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "04:00",
-      "home": "Ρόμα",
-      "away": "Σλόβαν Μπρατισλάβας",
+      "time": "02:00",
+      "home": "Μπέτις",
+      "away": "Φέγενορντ",
       "channel": "Cosmote Sport 1 HD",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Champions League"
     },
     {
-      "time": "04:30",
-      "home": "Σαν Αντόνιο Σπερς",
-      "away": "Οκλαχόμα Σίτι Θάντερ (Ζ)",
+      "time": "02:30",
+      "home": "Μαϊάμι Χιτ",
+      "away": "Μινεσότα Τίμπεργουλβς (Ζ)",
+      "channel": "Cosmote Sport 4 HD",
+      "sport": "Μπάσκετ",
+      "league": "NBA"
+    },
+    {
+      "time": "02:35",
+      "home": "Πάρμα",
+      "away": "Τορίνο",
+      "channel": "Cosmote Sport 2 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Serie A"
+    },
+    {
+      "time": "03:00",
+      "home": "Ατλάντα Ντριμ",
+      "away": "Γκόλντεν Στέιτ Βάλκιραϊς (Ζ)",
+      "channel": "Cosmote Sport 7 HD",
+      "sport": "Μπάσκετ",
+      "league": "NBA"
+    },
+    {
+      "time": "04:00",
+      "home": "Σπόρτινγκ Λισαβόνας",
+      "away": "Λίντσερ",
+      "channel": "Cosmote Sport 1 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "UEFA Champions League"
+    },
+    {
+      "time": "04:00",
+      "home": "Ρέιντζερς",
+      "away": "Σέλτικ",
+      "channel": "Cosmote Sport 3 HD",
+      "sport": "Ποδόσφαιρο",
+      "league": ""
+    },
+    {
+      "time": "05:00",
+      "home": "Λος Άντζελες Λέικερς",
+      "away": "Γκόλντεν Στέιτ Ουόριορς (Ζ)",
       "channel": "Cosmote Sport 5 HD",
       "sport": "Μπάσκετ",
       "league": "NBA"
     },
     {
-      "time": "05:00",
-      "home": "Φιορεντίνα",
-      "away": "Κόμο",
+      "time": "05:05",
+      "home": "Ουντινέζε",
+      "away": "Λέτσε",
       "channel": "Cosmote Sport 2 HD",
       "sport": "Ποδόσφαιρο",
       "league": "Serie A"
