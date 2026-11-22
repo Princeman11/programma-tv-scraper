@@ -1,16 +1,8 @@
 {
-  "date": "2026-11-21",
-  "updated": "2026-11-21T22:03:53.424Z",
-  "total": 129,
+  "date": "2026-11-22",
+  "updated": "2026-11-22T13:07:34.420Z",
+  "total": 90,
   "games": [
-    {
-      "time": "12:30",
-      "home": "Ποδόσφαιρο | Superbet League 2 | Αν",
-      "away": "Athens Kallithea | 12η Αγωνιστική",
-      "channel": "ERT2",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
     {
       "time": "14:30",
       "home": "Ποδόσφαιρο | Παγκόσμιο Κύπελλο Κ17 ",
@@ -34,222 +26,6 @@
       "channel": "ΣΚΑΪ",
       "sport": "Ποδόσφαιρο",
       "league": ""
-    },
-    {
-      "time": "01:00",
-      "home": "Formula 1: Κατατακτήριες Δοκιμές",
-      "away": "Λας Βέγκας",
-      "channel": "ANT1",
-      "sport": "Motorsport",
-      "league": ""
-    },
-    {
-      "time": "02:45",
-      "home": "Ποδόσφαιρο Σάλας | Α’ Εθνική | Ερμή",
-      "away": "Αθήνα ’90 | 8η Αγωνιστική",
-      "channel": "ERT2",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "00:00",
-      "home": "Κόμο",
-      "away": "Κάλιαρι",
-      "channel": "Magenta Sport 2",
-      "sport": "Ποδόσφαιρο",
-      "league": "Serie A"
-    },
-    {
-      "time": "00:00",
-      "home": "Ομόνοια",
-      "away": "ΑΠΟΕΛ",
-      "channel": "Magenta Sport 3",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "00:00",
-      "home": "Γκλάντμπαχ",
-      "away": "Ντόρτμουντ",
-      "channel": "Novasports Prime HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "Bundesliga"
-    },
-    {
-      "time": "00:00",
-      "home": "Μάντσεστερ Σίτι",
-      "away": "Μπέρνλι",
-      "channel": "Novasports Premier League",
-      "sport": "Ποδόσφαιρο",
-      "league": "Premier League"
-    },
-    {
-      "time": "00:00",
-      "home": "Μπάγερν Μονάχου",
-      "away": "Κολωνία",
-      "channel": "Novasports Start HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "Bundesliga"
-    },
-    {
-      "time": "01:35",
-      "home": "Μπασκόνια",
-      "away": "Ρεάλ Μαδρίτης",
-      "channel": "Magenta Sport 4",
-      "sport": "Μπάσκετ",
-      "league": "ACB"
-    },
-    {
-      "time": "01:45",
-      "home": "Βιγιαρεάλ",
-      "away": "Παρί Σεν Ζερμέν",
-      "channel": "Magenta Sport 1",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
-    },
-    {
-      "time": "01:45",
-      "home": "Σλάβια Πράγας",
-      "away": "Άρσεναλ",
-      "channel": "Magenta Sport Start",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
-    },
-    {
-      "time": "10:00",
-      "home": "PSV Αϊντχόφεν",
-      "away": "Κλαμπ Μπριζ",
-      "channel": "Magenta Sport 1",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
-    },
-    {
-      "time": "10:00",
-      "home": "Χαρτς",
-      "away": "Χιμπέρνιαν",
-      "channel": "Magenta Sport 3",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "10:00",
-      "home": "Λιθουανία",
-      "away": "Λιχτενστάιν",
-      "channel": "Novasports 1 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Nations League"
-    },
-    {
-      "time": "10:00",
-      "home": "Γκλάντμπαχ",
-      "away": "Ντόρτμουντ",
-      "channel": "Novasports Prime HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "Bundesliga"
-    },
-    {
-      "time": "10:00",
-      "home": "Κρίσταλ Πάλας",
-      "away": "Μπρέντφορντ",
-      "channel": "Novasports Premier League",
-      "sport": "Ποδόσφαιρο",
-      "league": "Premier League"
-    },
-    {
-      "time": "10:30",
-      "home": "Φιλαδέλφεια 76ερς",
-      "away": "Μιλγουόκι Μπακς",
-      "channel": "Magenta Sport 4",
-      "sport": "Μπάσκετ",
-      "league": "NBA"
-    },
-    {
-      "time": "11:00",
-      "home": "Σεβίλη",
-      "away": "Μπέτις",
-      "channel": "Magenta Sport 3 League",
-      "sport": "Ποδόσφαιρο",
-      "league": "LaLiga"
-    },
-    {
-      "time": "11:30",
-      "home": "Νάπολι",
-      "away": "Τορίνο",
-      "channel": "Magenta Sport 2",
-      "sport": "Ποδόσφαιρο",
-      "league": "Serie A"
-    },
-    {
-      "time": "11:30",
-      "home": "Ντάρμσταντ",
-      "away": "Έλβερσμπεργκ",
-      "channel": "Novasports 2 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "Bundesliga"
-    },
-    {
-      "time": "11:30",
-      "home": "Βίρτους Μπολόνια",
-      "away": "Ντουμπάι",
-      "channel": "Novasports 4 HD",
-      "sport": "Μπάσκετ",
-      "league": ""
-    },
-    {
-      "time": "12:00",
-      "home": "Μίλγουολ",
-      "away": "ΚΠΡ",
-      "channel": "Magenta Sport 3",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "12:00",
-      "home": "Βόρεια Μακεδονία",
-      "away": "Σλοβενία",
-      "channel": "Novasports 1 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Nations League"
-    },
-    {
-      "time": "12:00",
-      "home": "Βέρντερ Βρέμης",
-      "away": "Χόφενχαϊμ",
-      "channel": "Novasports 3 HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "Bundesliga"
-    },
-    {
-      "time": "12:00",
-      "home": "Φέγενορντ",
-      "away": "Εξέλσιορ",
-      "channel": "Novasports Prime HD",
-      "sport": "Ποδόσφαιρο",
-      "league": "Eredivisie"
-    },
-    {
-      "time": "12:30",
-      "home": "Ντερτόνα",
-      "away": "Χάποελ Ιερουσαλήμ",
-      "channel": "Novasports 5 HD",
-      "sport": "Μπάσκετ",
-      "league": ""
-    },
-    {
-      "time": "12:55",
-      "home": "Ρεάλ Μαδρίτης",
-      "away": "Θέλτα",
-      "channel": "Magenta Sport 3 League",
-      "sport": "Ποδόσφαιρο",
-      "league": "LaLiga"
-    },
-    {
-      "time": "13:00",
-      "home": "Μπιλμπάο",
-      "away": "Μπασκόνια (Ζ)",
-      "channel": "Magenta Sport 4",
-      "sport": "Μπάσκετ",
-      "league": "ACB"
     },
     {
       "time": "13:30",
@@ -420,6 +196,14 @@
       "league": "Super League"
     },
     {
+      "time": "16:00",
+      "home": "Τένις: Μαρσέλο Αρέβαλο/Μέιτ Πάβιτς",
+      "away": "Τέο Αριµπάτζε/Αλµπάνο Ολιβέτι (Ζ)",
+      "channel": "Magenta Sport 6",
+      "sport": "Τένις",
+      "league": ""
+    },
+    {
       "time": "16:30",
       "home": "Φιλαδέλφεια 76ερς",
       "away": "Μιλγουόκι Μπακς",
@@ -493,14 +277,6 @@
     },
     {
       "time": "18:00",
-      "home": "Φαμαλικάο",
-      "away": "Αρούκα",
-      "channel": "Magenta Sport 2",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "18:00",
       "home": "Ομόνοια",
       "away": "ΑΠΟΕΛ",
       "channel": "Magenta Sport 3",
@@ -514,6 +290,14 @@
       "channel": "Novasports 1 HD",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Nations League"
+    },
+    {
+      "time": "18:00",
+      "home": "Σπόρτινγκ Λισαβόνας",
+      "away": "Μορεϊρένσε",
+      "channel": "Magenta Sport 2",
+      "sport": "Ποδόσφαιρο",
+      "league": ""
     },
     {
       "time": "18:30",
@@ -564,6 +348,14 @@
       "league": ""
     },
     {
+      "time": "19:00",
+      "home": "Τένις: Αλεξάντερ Ζβέρεφ",
+      "away": "Κάρλος Αλκαράθ (Ζ)",
+      "channel": "Magenta Sport 6",
+      "sport": "Τένις",
+      "league": ""
+    },
+    {
       "time": "19:30",
       "home": "Μπεσίκτας",
       "away": "Φενέρμπαχτσε (Ζ)",
@@ -602,22 +394,6 @@
       "channel": "Novasports 2 HD",
       "sport": "Ποδόσφαιρο",
       "league": "Bundesliga"
-    },
-    {
-      "time": "02:00",
-      "home": "Λάτσιο",
-      "away": "Λέτσε",
-      "channel": "Magenta Sport 2",
-      "sport": "Ποδόσφαιρο",
-      "league": "Serie A"
-    },
-    {
-      "time": "02:00",
-      "home": "Μάδεργουελ",
-      "away": "Ρέιντζερς",
-      "channel": "Magenta Sport 3",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
     },
     {
       "time": "20:00",
@@ -748,6 +524,14 @@
       "league": "Eredivisie"
     },
     {
+      "time": "22:00",
+      "home": "Τένις: Αλεξάντερ Ζβέρεφ",
+      "away": "Κάρλος Αλκαράθ",
+      "channel": "Magenta Sport 6",
+      "sport": "Τένις",
+      "league": ""
+    },
+    {
       "time": "22:30",
       "home": "Ατλάντα Χοκς",
       "away": "Ντιτρόιτ Πίστονς (Ζ)",
@@ -812,110 +596,6 @@
       "league": "UEFA Nations League"
     },
     {
-      "time": "04:00",
-      "home": "ΑΕΚ",
-      "away": "Ρεάλ Μαδρίτης",
-      "channel": "Magenta Sport 3",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "04:00",
-      "home": "Πόρτο",
-      "away": "Νάπολι",
-      "channel": "Magenta Sport Start",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
-    },
-    {
-      "time": "04:05",
-      "home": "Μπεσίκτας",
-      "away": "Μπούρσασπορ",
-      "channel": "Magenta Sport 4",
-      "sport": "Ποδόσφαιρο",
-      "league": "Super League"
-    },
-    {
-      "time": "05:00",
-      "home": "Νάπολι",
-      "away": "Τορίνο",
-      "channel": "Magenta Sport 2",
-      "sport": "Ποδόσφαιρο",
-      "league": "Serie A"
-    },
-    {
-      "time": "06:00",
-      "home": "Χετάφε",
-      "away": "Μπράιτον",
-      "channel": "Magenta Sport 1",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "06:00",
-      "home": "ΠΑΟΚ",
-      "away": "Ζρίνσκι",
-      "channel": "Magenta Sport 3",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "06:00",
-      "home": "Άντβερπ Τζάιαντς",
-      "away": "Σαλόν Βίλπας",
-      "channel": "Magenta Sport 4",
-      "sport": "Ποδόσφαιρο",
-      "league": "Champions League"
-    },
-    {
-      "time": "07:00",
-      "home": "Εστρέλα",
-      "away": "Μπενφίκα",
-      "channel": "Magenta Sport 2",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "08:00",
-      "home": "Λίντσερ",
-      "away": "Σλόβαν Μπρατισλάβας",
-      "channel": "Magenta Sport 1",
-      "sport": "Ποδόσφαιρο",
-      "league": "UEFA Champions League"
-    },
-    {
-      "time": "08:00",
-      "home": "Ρέιντζερς",
-      "away": "Αμπερντίν",
-      "channel": "Magenta Sport 3",
-      "sport": "Ποδόσφαιρο",
-      "league": ""
-    },
-    {
-      "time": "09:05",
-      "home": "Ράγιο Βαγιεκάνο",
-      "away": "Βαλένθια",
-      "channel": "Magenta Sport 3 League",
-      "sport": "Ποδόσφαιρο",
-      "league": "LaLiga"
-    },
-    {
-      "time": "09:20",
-      "home": "Άντβερπ Τζάιαντς",
-      "away": "Σαλόν Βίλπας",
-      "channel": "Magenta Sport Start",
-      "sport": "Ποδόσφαιρο",
-      "league": "Champions League"
-    },
-    {
-      "time": "09:30",
-      "home": "Πάρμα",
-      "away": "Ρόμα",
-      "channel": "Magenta Sport 2",
-      "sport": "Ποδόσφαιρο",
-      "league": "Serie A"
-    },
-    {
       "time": "00:00",
       "home": "Γιουβέντους",
       "away": "Βενέτσια",
@@ -938,6 +618,14 @@
       "channel": "Magenta Sport Start",
       "sport": "Ποδόσφαιρο",
       "league": "UEFA Champions League"
+    },
+    {
+      "time": "00:00",
+      "home": "Γκλάντμπαχ",
+      "away": "Ντόρτμουντ",
+      "channel": "Novasports Start HD",
+      "sport": "Ποδόσφαιρο",
+      "league": "Bundesliga"
     },
     {
       "time": "00:30",
